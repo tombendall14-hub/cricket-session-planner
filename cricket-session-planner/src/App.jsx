@@ -1,3 +1,5 @@
+import jsPDF from 'jspdf';
+import html2canvas from 'html2canvas';
 import React, { useState, useRef, useEffect } from 'react';
 import { Download, Save, Trash2, Pencil, Eraser, Maximize, Minimize } from 'lucide-react';
 
